@@ -7,8 +7,11 @@
     </head>
     
     <body>
+        
+        <!--Headers and navigation bar -->
+        
+        <div id="headernav">
         <h1 id="top">Henry's awesome page!</h1>
-        <div id="navbar">
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -24,6 +27,9 @@
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         
         <h2>Where awesome things happen</h2>
+        
+        <!-- Images -->
+        
         <img src="https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/58/585/585986/preview3-f.jpg?1438264342"/>
         
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
@@ -33,7 +39,9 @@
     
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             
-            <table>
+        <!-- Tables -->
+        
+        <table>
                 <tr>
                     <th></th>
                     <th scope="col">Saturday</th>
@@ -61,19 +69,25 @@
             
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             
+            <!-- text input-->
+        
             <form action="">
                 <p> Username:
                     <input type="text" name="Username"/>
                 </p>
             </form>
-            
+        
+            <!-- password input-->    
+        
             <form action="">
                 <p>Password:
                     <input type="password" name="password">
-                
                 </p>
             </form>
+        
             <br />
+            <!-- Comment area -->
+        
             <form action="">
                 <p>Tell me your comments about this page below!</p>
                 <textarea name="comments"></textarea>
@@ -97,6 +111,7 @@
             
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         
+            <!-- radiobutton -->
         <form action="">
             <p>Please select your favorite genre:
                 <br />
@@ -108,10 +123,69 @@
                         Jazz
             </p>
         </form>
+        
+        <!-- checkbox -->
             
+        <form action="">
+            <p>Please select your favorite music service(s):
+                <br />
+                <input type="checkbox" name="service"
+                       value="itunes" checked="checked" /> iTunes
+                <input type="checkbox" name="service"
+                       value="spotify"> Spotify
+                <input type="checkbox" name="service"
+                       value="Tidal"> Tidal
+            </p>
+        </form>
+        
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        
+        <!--Drop-down list -->
+        
+        <form action="">
+            <p>What device do you listen to music on?</p>
+            <select name="devices">
+                <option value="ipod">iPod</option>
+                <option value="iPhone">iPhone</option>
+                <option value="pc">Pc</option>
+            </select>
+        </form>
+        
+        <!--Upload form -->
+        
+        <form action="">
+            <p>Upload your song in MP3!</p>
+            <input type="file" name="user-song" /><br />
+            <input type="submit" value="upload" />
+        </form>
+        
+        <!--submit button -->
+        
+        <form action="">
+            <p>Suscribe to our email list!</p>
+            <input type="text" name="email" />
+            <input type="submit" name="suscribe" value="Suscribe" />
+        </form>
+        
+        <!-- -submit button with image -->
+        
+        <form action="http://www.example.org/suscribe.php">
+            <p>Suscribe again fucker!</p>
+            <input type="text" name="email" />
+            <input type="image" src="https://openclipart.org/image/2400px/svg_to_png/216811/Subscribe.png" width="100" height="20" />
+        <!--search bar -->    
+            <form action="http://www.example.org/search.php">
+                <p>Search:</p>
+                <input type="search" name="search" placeholder="Enter keyword..."/>
+                <input type="submit" value="Search" />
+            </form>
+        
+        
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             
+            <footer>
+                <p> &copy litherpoan works, Inc.</p>
+            </footer>
         <body>
 </html>
