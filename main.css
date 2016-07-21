@@ -1,9 +1,37 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
-    background-image: url("http://www.walldevil.com/wallpapers/a85/backgrounds-high-resolution-blurred-background1-blur-light-blue.jpg");
+    background-color: whitesmoke;
     max-width: 900px;
+    padding: 10px
 }
 nav {
     display: inline;
+}
+
+p.ital {
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    background-color: deeppink;
+    text-transform: uppercase;
+}
+footer {
+    text-decoration: underline;
+}
+
+a:link {
+    color: springgreen;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: lawngreen;
+}
+a:active {
+    color: deepskyblue;
 }
